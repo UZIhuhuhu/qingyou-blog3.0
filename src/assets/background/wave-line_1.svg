@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="897px" viewBox="0 0 1440 897" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>wave-line</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.25">
+        <g id="Desktop-HD" stroke="#22B574">
+            <g id="landing-bg" transform="translate(1.000000, -154.000000)">
+                <g id="wave-line">
+                    <path d="M0,565.037736 C306,718.371069 546,810.037736 720,840.037736 C894,870.037736 1134,876.037736 1440,858.037736 L1440,1030.03774 C1047.33333,1060.7044 735.333333,1056.03774 504,1016.03774 C272.666667,976.037736 104.666667,936.371069 0,897.037736 L0,565.037736 Z" id="Path-2"></path>
+                    <path d="M0,272 C306,425.333333 546,517 720,547 C894,577 1134,583 1440,565 L1440,737 C1047.33333,767.666667 735.333333,763 504,723 C272.666667,683 104.666667,643.333333 0,604 L0,272 Z" id="Path-2-Copy" transform="translate(720.000000, 514.481132) scale(-1, 1) translate(-720.000000, -514.481132) "></path>
+                    <path d="M0,0 C306,153.333333 546,245 720,275 C894,305 1134,311 1440,293 L1440,465 C1047.33333,495.666667 735.333333,491 504,451 C272.666667,411 104.666667,371.333333 0,332 L0,0 Z" id="Path-2-Copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

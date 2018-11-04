@@ -1,0 +1,61 @@
+@import "../../style/plugin/reset.sass"
+@import "../../style/plugin/animate.sass"
+*
+  margin: 0
+  padding: 0
+
+.part1
+  height: 896px
+  background-image: url('../../assets/background/wave-line_1.svg')
+  background-repeat: no-repeat
+  background-size: 100%;
+
+.top
+  margin: 0 auto
+  border-left: 6px solid lightgreen
+  border-right: 6px solid lightgreen
+  border-bottom: 6px solid lightgreen
+  height: 82px
+  width: 70%
+  border-radius: 0 0 15px 15px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  .studio-icon
+    margin-left: 36px
+  button
+    font-size: 14px
+    width: 140px
+    height: 40px
+    margin-right: 21px
+    color: white
+    outline: none
+    border: none
+    border-radius: 40px
+    text-decoration: none
+    background: linear-gradient(to right, #8bd21f, #d8d23e)
+    box-shadow: 2px 4px 5px #f3f6ac
+    cursor: pointer
+    &:active
+      transform: translateY(3px)
+
+.introduction
+  margin: 0px auto
+  // border: 1px solid black;
+  display: flex
+  align-items: flex-end
+  justify-content: center
+  .introduction-img
+    background-image: url('../../assets/Illustrations/static_assets_rpm6.svg')
+    background-size: 100% 100%
+    width: 556px
+    height: 395px
+  .introduction-text
+    width: 381px
+    margin-top: 80px
+    h1
+      font-size: 56px
+      color: #22b574
+    p
+      font-size: 20px
+      color: #222222
