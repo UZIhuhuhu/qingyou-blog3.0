@@ -3358,15 +3358,9 @@ table {
   height: 82px;
   width: 70%;
   border-radius: 0 0 15px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .top .studio-icon {
@@ -3383,29 +3377,20 @@ table {
   border: none;
   border-radius: 40px;
   text-decoration: none;
-  background: -webkit-gradient(linear, left top, right top, from(#8bd21f), to(#d8d23e));
   background: linear-gradient(to right, #8bd21f, #d8d23e);
-  -webkit-box-shadow: 2px 4px 5px #f3f6ac;
-          box-shadow: 2px 4px 5px #f3f6ac;
+  box-shadow: 2px 4px 5px #f3f6ac;
   cursor: pointer;
 }
 
 .top button:active {
-  -webkit-transform: translateY(3px);
-          transform: translateY(3px);
+  transform: translateY(3px);
 }
 
 .introduction {
   margin: 0px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .introduction .introduction-img {
@@ -3429,4 +3414,3 @@ table {
   font-size: 20px;
   color: #222222;
 }
-/*# sourceMappingURL=first.css.map */

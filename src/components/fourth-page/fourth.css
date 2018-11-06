@@ -3337,4 +3337,150 @@ table {
     transition: none !important;
   }
 }
-/*# sourceMappingURL=fourth.css.map */
+
+.part4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.part4 .part-title-container {
+  margin: 0 auto;
+  width: 72%;
+  height: 40rem;
+  background-image: url("../../assets/Illustrations/version_control_9bpv.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60%;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.part4 .part-title-container .title-text {
+  font-size: 3rem;
+  color: #222222;
+  font-weight: 600;
+}
+
+.part4 .part-title-container .title-bubble {
+  background: rgba(34, 181, 116, 0.39);
+  border-radius: 100%;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+}
+
+.part4 .part-title-container .bubble1 {
+  top: -1rem;
+  left: -1rem;
+  animation: bubble1 6s ease infinite;
+}
+
+.part4 .part-title-container .bubble2 {
+  top: 1rem;
+  left: -0.8rem;
+  animation: bubble2 6s ease infinite;
+}
+
+.part4 .part-content {
+  width: 100%;
+  background-image: url("../../assets/background/wave-line_4.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.part4 .part-content .card-container {
+  margin: 0 auto;
+  width: 72%;
+  height: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.part4 .part-content .card-container .content-card {
+  position: relative;
+  height: 25rem;
+  width: 25rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part4 .part-content .card-container .content-card .card-card {
+  background: #dcfbb5;
+  width: 20rem;
+  height: 20rem;
+  opacity: 0.5;
+  position: absolute;
+  transition: all .2s ease .2s;
+}
+
+.part4 .part-content .card-container .content-card .card1 {
+  transform: rotate(10deg);
+}
+
+.part4 .part-content .card-container .content-card .card2 {
+  transform: rotate(-100deg);
+}
+
+.part4 .part-content .card-container .content-card .card-content {
+  height: 8rem;
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.part4 .part-content .card-container .content-card .card-content .content-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #22b574;
+  z-index: 1;
+}
+
+.part4 .part-content .card-container .content-card .card-content .content-text {
+  margin-top: 1rem;
+  color: #222222;
+  z-index: 1;
+}
+
+.part4 .part-content .card-container .content-card:hover .card1, .part4 .part-content .card-container .content-card:hover .card2 {
+  transform: rotate(0);
+  transition: all .2s ease-in-out .2s;
+}
+
+.part4 .part-image {
+  width: 72%;
+  height: 40rem;
+  margin: 5rem 0;
+}
+
+@keyframes bubble1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bubble2 {
+  0% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}

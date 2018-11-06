@@ -3,4 +3,4 @@ const setHeight = () => {
   window.parent.document.querySelector(`.fifth-iframe`).style.height = `${h}px`;
 };
 
-setHeight();
+window.onresize = setHeight();
