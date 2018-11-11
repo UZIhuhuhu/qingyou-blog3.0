@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1170px" viewBox="0 0 1440 1170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>wave-line_4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.25">
+        <g id="Desktop-HD" transform="translate(0.000000, -3229.000000)" stroke="#22B574">
+            <g id="wave-line_4" transform="translate(0.000000, 3229.000000)">
+                <path d="M0,0.5 L1440,217" id="Line"></path>
+                <path d="M0,159.5 L1440,376" id="Line-Copy"></path>
+                <path d="M0,319.5 L1440,536" id="Line-Copy-2"></path>
+                <path d="M0,478.5 L1440,695" id="Line-Copy-3"></path>
+                <path d="M0,634 L1440,850.5" id="Line-Copy-7"></path>
+                <path d="M0,793 L1440,1009.5" id="Line-Copy-6"></path>
+                <path d="M0,953 L1440,1169.5" id="Line-Copy-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
