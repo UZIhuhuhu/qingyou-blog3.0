@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-        <div v-if="cardShowStatus" :class="cardShowStatus ? 'detail-information-card animated fadeInUp' : disappearStatus ? 'detail-information-card aniamted fadeOutDown' :'detail-information-card aniamted'">
+        <div v-if="cardShowStatus" :class="cardShowStatus ? 'detail-information-card animated fadeInUp' : 'detail-information-card' ">
           <div class="information-card-name"><span>姓名:</span>{{cardInfo.name}}</div>
           <div class="information-card-direction"><span>方向:</span>{{cardInfo.goodAt}}</div>
           <div class="information-card-introduction"><span>介绍:</span>{{cardInfo.description}}</div>
