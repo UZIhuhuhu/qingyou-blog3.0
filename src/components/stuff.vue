@@ -328,6 +328,8 @@ export default {
   .part2-content-container
     max-width: 72%
     position: relative
+    @media(max-width: $phone)
+      max-width: 87%
     .part2-container-title
       margin-bottom: 3.5rem
       margin-top: 5.75rem
@@ -336,14 +338,14 @@ export default {
         font-weight: 600
         font-size: 2.5rem
         color: #222222
-        @media(max-width: 660px)
+        @media(max-width: $phone)
           font-size: 1.5rem
     .stuff-container
       margin: auto
       width: 100%
       overflow-x: scroll
       overflow-y: hidden
-      @media(min-width: 660px)
+      @media(min-width: $phone)
         max-width: 53.875rem
         max-height: 43rem
       .detail-information-card
@@ -361,7 +363,7 @@ export default {
         box-sizing: border-box
         border-image-slice: 10
         border-top: 0.375rem solid #22b574
-        @media(min-width: 660px)
+        @media(min-width: $phone)
           bottom: 5%
           width: 25rem
         div
@@ -388,6 +390,8 @@ export default {
           box-shadow: 0px 0px 0.375rem 0px rgba(0, 0, 0, 0.15)
           border-bottom-left-radius: 0.625rem
           border-bottom-right-radius: 0.625rem
+          @media(max-width: $phone)
+            margin-bottom: 1.5rem
           .card-inner-block
             width: 100%
             height: 100%
