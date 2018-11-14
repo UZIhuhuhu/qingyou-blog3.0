@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="part1-container">
     <div class="top">
       <div class="studio-icon"><img src="../assets/logo/qingyoulogo.svg" /></div>
       <button>Oauth认证</button>
@@ -34,9 +34,10 @@ export default {
   margin: 0
   padding: 0
 
-.part1
+.part1-container
   background-image: url("../assets/background/wave-line_1.svg")
   background-repeat: no-repeat
+  background-size: cover
 
 .top
   width: 70%

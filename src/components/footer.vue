@@ -145,7 +145,7 @@ export default {
   bottom: 0
   width: 100vw
   height: 3.125rem
-  border-top: 0.0625rem solid white
+  border-top: 0.5px solid rgba(255,255,255,0.5)
   p
     text-align: center
     line-height: 3.125rem
