@@ -100,11 +100,13 @@ export default {
     background-size: 60%
     position: relative
     margin-top: 2rem
+    @media(max-width: $phone)
+      height: 15rem
     .title-text
       font-size: 2.5rem
       color: #222222
       font-weight: 600
-      @media(max-width: 660px)
+      @media(max-width: $phone)
         font-size: 1.5rem
   .part-content
     width: 100%
@@ -113,20 +115,22 @@ export default {
     background-size: 100%
     .card-container
       margin: 0 auto
-      width: 72%
       // height: 60rem
       display: flex
       flex-wrap: wrap
       flex-direction: row
       justify-content: space-between
+      @media(min-width: $phone)
+        width: 72%
       .content-card
         position: relative
         height: 25rem
         width: 25rem
-        margin: 2rem
         display: flex
         align-items: center
         justify-content: center
+        @media(min-width: $phone)
+          margin: 2rem
         .card-card
           background: #dcfbb5
           width: 20rem
@@ -134,6 +138,9 @@ export default {
           opacity: 0.5
           position: absolute
           transition: all .2s ease .2s
+          @media(max-width: $phone)
+            width: 16rem
+            height: 16rem
         .card1
           transform: rotate(10deg)
         .card2
@@ -161,6 +168,8 @@ export default {
             transition: all .2s ease-in-out .2s
   .part-image
     width: 72%
-    height: 40rem
-    margin: 5rem 0
+    margin: 0 0
+    @media(min-width: $phone)
+      height: 40rem
+      margin: 5rem 0
 </style>
