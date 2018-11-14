@@ -137,7 +137,7 @@ export default {
           height: 20rem
           opacity: 0.5
           position: absolute
-          transition: all .2s ease .2s
+          transition: all .2s ease
           @media(max-width: $phone)
             width: 16rem
             height: 16rem
@@ -165,7 +165,7 @@ export default {
         &:hover
           .card1,.card2
             transform: rotate(0)
-            transition: all .2s ease-in-out .2s
+            transition: all .2s ease-in-out
   .part-image
     width: 72%
     margin: 0 0

@@ -72,6 +72,7 @@ export default {
         font-size: 2.5rem
         @media(max-width: $phone)
           font-size: 1.5rem
+          margin-bottom: 0.625rem
         color: #222222
       .header-image
         width: 540px
@@ -102,12 +103,10 @@ export default {
           height: 210px
         &:hover
           .project-card-header
-            transition: transform 0.4s ease-out
             transform: translateY(-90px)
             @media(max-width: $phone)
               transform: translateY(-65px)
           .project-card-body
-            transition: transform 0.4s ease-out
             transform: scale(1.1) translateY(60px)
             @media(max-width: $phone)
               transform: scale(1.1) translateY(45px)
@@ -116,6 +115,7 @@ export default {
           border-top-right-radius: 10px
           width: 100%
           height: 82%
+          transition: all 0.3s ease-out 
           position: absolute
           top: 0
           background-color: #22b574
@@ -139,6 +139,7 @@ export default {
           height: 82%
           border-radius: 10px
           position: absolute
+          transition: all 0.3s ease-out
           top: 60px
           background-color: #fafafa
           background-size: cover

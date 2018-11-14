@@ -63,6 +63,8 @@ import avatar29 from "../assets/stuff-avatar/tjh.jpg";
 import avatar30 from "../assets/stuff-avatar/cky.jpg";
 import avatar31 from "../assets/stuff-avatar/bcy.jpg";
 import avatar32 from "../assets/stuff-avatar/zyj.jpg";
+import avatar33 from "../assets/stuff-avatar/lyf.jpg";
+import avatar34 from "../assets/stuff-avatar/zx.jpg";
 import debounce from "../utils/debounce.js";
 export default {
   name: `Stuff`,
@@ -217,7 +219,7 @@ export default {
           name: "黄兴源",
           goodAt: "前端",
           ImgUrl: avatar24,
-          description: "努力成为一个有趣且认真的人([] == ![] //true)"
+          description: "在混乱邪恶的世界里爱我所爱,行我所行。"
         },
         {
           name: "鲍可",
@@ -268,6 +270,19 @@ export default {
           goodAt: "后端",
           ImgUrl: avatar32,
           description: "张佑杰，男，1999年生，现年18岁，马上19岁，明年20岁。"
+        },
+        {
+          name: "李懿峰",
+          goodAt: "运营",
+          ImgUrl: avatar33,
+          description:
+            "万分感谢青柚工作室收容very vegetable的我。希望这个世界因为我而变得好一点，在那之前先努力自我救赎吧。"
+        },
+        {
+          name: "周馨",
+          goodAt: "运营",
+          ImgUrl: avatar34,
+          description: "等待就是浪费青春"
         }
       ],
       borderColorArray: [`#22b574`, `#9dd647`, `#d9db61`],
@@ -326,10 +341,10 @@ export default {
   display: flex
   justify-content: center
   .part2-content-container
-    max-width: 72%
+    width: 72%
     position: relative
     @media(max-width: $phone)
-      max-width: 87%
+      width: 87%
     .part2-container-title
       margin-bottom: 3.5rem
       margin-top: 5.75rem
@@ -350,7 +365,7 @@ export default {
         max-height: 43rem
       .detail-information-card
         position: absolute
-        bottom: 10%
+        bottom: 15%
         left: 0
         right: 0
         margin: auto
@@ -369,7 +384,7 @@ export default {
         div
           padding: 0.625rem
       .stuff-avatar
-        width: 1510px
+        width: 1650px
         overflow-x: scroll
         overflow-y: hidden
         max-height: 42.75rem
@@ -410,7 +425,7 @@ export default {
               color: #222222
               font-size: 1.25rem
     .scroll-bar
-      width: 100%
+      max-width: 53.875rem
       margin: auto
       margin-top: 2.125rem
       height: 1rem

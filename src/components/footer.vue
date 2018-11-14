@@ -60,8 +60,8 @@ export default {
   position: absolute
 
 .animation-item1
-  -webkit-animation: rotate1 7s ease-out infinite
-  animation: rotate1 7s ease-out infinite
+  -webkit-animation: rotate1 7s linear infinite
+  animation: rotate1 7s linear infinite
   background-color: #90dab9
   -webkit-transform-origin: right
   transform-origin: right
@@ -69,8 +69,8 @@ export default {
 
 .animation-item2
   top: 7px
-  -webkit-animation: rotate2 7s ease-out infinite
-  animation: rotate2 7s ease-out infinite
+  -webkit-animation: rotate2 7s linear infinite
+  animation: rotate2 7s linear infinite
   -webkit-transform-origin: left
   transform-origin: left
   background-color: #58c796
@@ -145,7 +145,7 @@ export default {
   bottom: 0
   width: 100vw
   height: 3.125rem
-  border-top: 0.0625rem solid white
+  border-top: 0.5px solid rgba(255,255,255,0.5)
   p
     text-align: center
     line-height: 3.125rem
