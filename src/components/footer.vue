@@ -49,7 +49,6 @@ export default {
 #part6
   width: 100vw
   position: relative
-  margin-top: 80px
 
 *
   margin: 0
@@ -61,7 +60,7 @@ export default {
   position: absolute
 
 .animation-item1
-  -webkit-animation: rotate2 5s ease-out infinite
+  -webkit-animation: rotate1 7s ease-out infinite
   animation: rotate1 7s ease-out infinite
   background-color: #90dab9
   -webkit-transform-origin: right
@@ -70,7 +69,7 @@ export default {
 
 .animation-item2
   top: 7px
-  -webkit-animation: rotate1 5s ease-out infinite
+  -webkit-animation: rotate2 7s ease-out infinite
   animation: rotate2 7s ease-out infinite
   -webkit-transform-origin: left
   transform-origin: left
