@@ -107,6 +107,7 @@ export default {
             @media(max-width: $phone)
               transform: translateY(-65px)
           .project-card-body
+            box-shadow: 0 -5px 10px -4px rgba(0,0,0,0.30)
             transform: scale(1.1) translateY(60px)
             @media(max-width: $phone)
               transform: scale(1.1) translateY(45px)
