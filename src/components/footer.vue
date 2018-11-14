@@ -60,8 +60,8 @@ export default {
   position: absolute
 
 .animation-item1
-  -webkit-animation: rotate1 7s ease-out infinite
-  animation: rotate1 7s ease-out infinite
+  -webkit-animation: rotate1 7s linear infinite
+  animation: rotate1 7s linear infinite
   background-color: #90dab9
   -webkit-transform-origin: right
   transform-origin: right
@@ -69,8 +69,8 @@ export default {
 
 .animation-item2
   top: 7px
-  -webkit-animation: rotate2 7s ease-out infinite
-  animation: rotate2 7s ease-out infinite
+  -webkit-animation: rotate2 7s linear infinite
+  animation: rotate2 7s linear infinite
   -webkit-transform-origin: left
   transform-origin: left
   background-color: #58c796
