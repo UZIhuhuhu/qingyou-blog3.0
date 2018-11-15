@@ -315,14 +315,11 @@ export default {
     scrollLeft() {
       const maxWidth = document.querySelector(`.stuff-container`).clientWidth;
       const innerWidth = document.querySelector(`.stuff-avatar`).clientWidth;
+      const scrollBarWidth = document.querySelector(`.scroll-bar`).clientWidth;
       const leftDistance = document.querySelector(`.stuff-container`)
         .scrollLeft;
-      const bodyWidth = document.querySelector(`body`).clientWidth;
-      if (bodyWidth < 996) {
-        this.leftDistance = leftDistance / (innerWidth / maxWidth);
-      } else {
-        this.leftDistance = leftDistance;
-      }
+      this.leftDistance =
+        (leftDistance * scrollBarWidth) / (innerWidth - maxWidth + 64);
     }
   }
 };
@@ -333,7 +330,6 @@ export default {
 @import "../style/bubble.sass"
 .part2
   width: 100vw
-  // min-height: 861px
   background-image: url("../assets/background/wave-line_2.svg")
   background-size: cover
   background-repeat: no-repeat
@@ -388,7 +384,6 @@ export default {
         overflow-x: scroll
         overflow-y: hidden
         max-height: 42.75rem
-        // margin-bottom: 2.125rem
         display: inline-block
         .stuff-card
           margin-left: 0.1rem
