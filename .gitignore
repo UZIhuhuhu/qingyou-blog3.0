@@ -2,10 +2,13 @@
 node_modules
 /dist
 dist.zip
+
+# complied css
+src/**/*.css
+src/**/*.css.map
 # local env files
 .env.local
 .env.*.local
-
 # Log files
 npm-debug.log*
 yarn-debug.log*
